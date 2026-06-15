@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Travel Planner Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="overlay">
+
+    <div class="container">
+
+        <h1>🌍 Smart AI Travel Planner</h1>
+
+        <p class="tagline">
+            Plan your dream trip with Hotels, Weather, Maps, Tourist Places and Travel Options
+        </p>
+
+        <div class="form-box">
+
+            <form action="/result">
+
+                <div class="form-group">
+                    <input type="text" name="source" placeholder="📍 Current Location" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="destination" placeholder="🎯 Destination" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" name="budget" placeholder="💰 Budget" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" name="days" placeholder="📅 Days" required>
+                </div>
+
+                <button type="submit">
+                    ✈️ Plan My Trip
+                </button>
+
+            </form>
+
+        </div>
+
+        <br><br>
+
+        <div class="card">
+            <h2>🚗 Travel Options Available</h2>
+
+            <div class="transport">
+
+                <a href="#">🚆 Train</a>
+
+                <a href="#">🚌 Bus</a>
+
+                <a href="#">✈ Flight</a>
+
+                <a href="#">🚗 Own Vehicle</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
