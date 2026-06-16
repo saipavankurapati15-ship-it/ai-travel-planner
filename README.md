@@ -74,7 +74,7 @@ AI-Travel-Planner
 
 Clone repository
 
-git clone https://github.com/your-username/ai-travel-planner.git
+git clone  https://saipavankurapati15-ship-it.github.io/ai-travel-planner/
 
 Move to project folder
 
